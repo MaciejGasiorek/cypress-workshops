@@ -1,0 +1,20 @@
+{
+    "controllers":{
+        "static":{
+            "logo":"img[src$='logo.png']"
+            
+        },
+        "button":{
+            "loginLink":"//*[@href='/login']",
+            "signUp":"//button[text()='Signup']"
+        },
+        "text":{
+            "newUserSignUp":"//*[text()='New User Signup!']"
+        },
+        "input":
+        {
+            "name": "//*[@data-qa = 'signup-name']",
+            "email": "//*[@data-qa = 'signup-email']"
+        }
+    }
+}

@@ -45,7 +45,8 @@ describe('Register / login / logout users', () => {
         helpers.getElement(controllers.button.Continue).click();
         helpers.getElement(controllers.text.loggedInAs).should('be.visible');
         
-
+ 
+        
      
     })
 
